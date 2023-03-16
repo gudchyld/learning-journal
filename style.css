@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+h2,
+p {
+  margin: 0;
+}
+p{
+    font-size: 14px;
+    line-height: 1.2;
+   
+}
+
+/* header styling */
+.nav,
+.nav-logo,
+.nav-navigation,
+.hero,
+.main {
+  display: flex;
+}
+.nav {
+  padding: 10px 20px;
+}
+.nav-navigation {
+  margin-left: auto;
+  gap: 30px;
+  align-items: center;
+}
+.nav-logo {
+  align-items: center;
+  gap: 5px;
+}
+.nav-logo > img {
+  width: 34px;
+  height: 34px;
+}
+
+/* hero styling */
+.hero {
+  background-image: url('images/mobile/article-image-hero.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 414px;
+  height: 293px; */
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding-top: 90px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 8px;
+}
+
+.hero-content{
+    color: white;    
+}
+.hero-content >p{
+    color: rgb(240, 236, 236);
+}
+.hero-content > h2{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 26px;
+    line-height: 1;
+}
+
+/* main */
+.main{
+    flex-direction: column;
+    padding: 20px 20px;
+    gap: 2px;
+}
+.main-date{
+    margin-top: 10px;
+}
+.main p{
+    color: rgb(48, 47, 47);
+}
+.main > h2{
+    margin-bottom: 3px;
+}
+.main > img{
+    border-radius: 5px;
+}
+
+/* aside */
+aside{
+    margin-bottom: 20px;
+}
+aside > div {
+    text-align: center;
+    font-size: 14px;
+    color: black;
+}
+
+aside >div > a{
+    color: black;
+}
+/* footer */
+footer{
+    text-align: center;
+    margin-top: 40px;
+    background: #202020;
+    color: white;
+    padding: 50px 0;
+   
+}
+.bold{
+    font-weight: bold;
+}
+.dim{
+    opacity: 70%;
+}
+.copyright{
+    margin-top: 3px;
+}
